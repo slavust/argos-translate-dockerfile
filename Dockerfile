@@ -6,4 +6,3 @@ ENV ARGOS_PACKAGES_DIR=$PACKAGES_DIR
 RUN pip3 install argostranslate
 COPY install-all-language-packages.py ./
 RUN python3 install-all-language-packages.py
-COPY $ARGOS_PACKAGES_DIR/* $ARGOS_PACKAGES_DIR
